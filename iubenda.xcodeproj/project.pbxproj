@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C62331C827D3B2DE00C43B4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62331C727D3B2DE00C43B4B /* AppDelegate.swift */; };
+		C62331CA27D3B2DE00C43B4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62331C927D3B2DE00C43B4B /* SceneDelegate.swift */; };
+		C62331CC27D3B2DE00C43B4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62331CB27D3B2DE00C43B4B /* ViewController.swift */; };
+		C62331CF27D3B2DE00C43B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62331CD27D3B2DE00C43B4B /* Main.storyboard */; };
+		C62331D127D3B2E000C43B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62331D027D3B2E000C43B4B /* Assets.xcassets */; };
+		C62331D427D3B2E000C43B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62331D227D3B2E000C43B4B /* LaunchScreen.storyboard */; };
+		C62331E327D3B33700C43B4B /* cookie_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = C62331E227D3B33700C43B4B /* cookie_manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C62331E627D3B33700C43B4B /* cookie_manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62331E027D3B33700C43B4B /* cookie_manager.framework */; };
+		C62331E727D3B33700C43B4B /* cookie_manager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C62331E027D3B33700C43B4B /* cookie_manager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C62331ED27D3B34800C43B4B /* CookieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62331EC27D3B34800C43B4B /* CookieManager.swift */; };
+		C62331EF27D3B3BF00C43B4B /* CookieManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62331EE27D3B3BF00C43B4B /* CookieManagerProtocol.swift */; };
+		C626CA7927D6923A003A6640 /* WebLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626CA7827D6923A003A6640 /* WebLayoutViewController.swift */; };
+		C626CA7D27D69A8A003A6640 /* WebLayoutStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C626CA7C27D69A8A003A6640 /* WebLayoutStoryboard.storyboard */; };
+		ED8F458527DE494A00FA83FE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C62331D527D3B2E000C43B4B /* Info.plist */; };
+		ED8F458627DE494B00FA83FE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C62331D527D3B2E000C43B4B /* Info.plist */; };
+		ED8F458727DE497300FA83FE /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = C62331F227D3C26500C43B4B /* readme.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C62331E427D3B33700C43B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62331BC27D3B2DE00C43B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C62331DF27D3B33700C43B4B;
+			remoteInfo = "cookie-manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C62331EB27D3B33700C43B4B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C62331E727D3B33700C43B4B /* cookie_manager.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C62331C427D3B2DE00C43B4B /* iubenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iubenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62331C727D3B2DE00C43B4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C62331C927D3B2DE00C43B4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C62331CB27D3B2DE00C43B4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C62331CE27D3B2DE00C43B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C62331D027D3B2E000C43B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C62331D327D3B2E000C43B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C62331D527D3B2E000C43B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62331E027D3B33700C43B4B /* cookie_manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cookie_manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62331E227D3B33700C43B4B /* cookie_manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cookie_manager.h; sourceTree = "<group>"; };
+		C62331EC27D3B34800C43B4B /* CookieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieManager.swift; sourceTree = "<group>"; };
+		C62331EE27D3B3BF00C43B4B /* CookieManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieManagerProtocol.swift; sourceTree = "<group>"; };
+		C62331F227D3C26500C43B4B /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		C626CA7827D6923A003A6640 /* WebLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebLayoutViewController.swift; sourceTree = "<group>"; };
+		C626CA7C27D69A8A003A6640 /* WebLayoutStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WebLayoutStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C62331C127D3B2DE00C43B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62331E627D3B33700C43B4B /* cookie_manager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62331DD27D3B33700C43B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C62331BB27D3B2DE00C43B4B = {
+			isa = PBXGroup;
+			children = (
+				C62331F227D3C26500C43B4B /* readme.md */,
+				C62331C627D3B2DE00C43B4B /* iubenda */,
+				C62331E127D3B33700C43B4B /* cookie-manager */,
+				C62331C527D3B2DE00C43B4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C62331C527D3B2DE00C43B4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C62331C427D3B2DE00C43B4B /* iubenda.app */,
+				C62331E027D3B33700C43B4B /* cookie_manager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C62331C627D3B2DE00C43B4B /* iubenda */ = {
+			isa = PBXGroup;
+			children = (
+				C62331C727D3B2DE00C43B4B /* AppDelegate.swift */,
+				C62331C927D3B2DE00C43B4B /* SceneDelegate.swift */,
+				C62331CB27D3B2DE00C43B4B /* ViewController.swift */,
+				C62331CD27D3B2DE00C43B4B /* Main.storyboard */,
+				C62331D027D3B2E000C43B4B /* Assets.xcassets */,
+				C62331D227D3B2E000C43B4B /* LaunchScreen.storyboard */,
+				C62331D527D3B2E000C43B4B /* Info.plist */,
+			);
+			path = iubenda;
+			sourceTree = "<group>";
+		};
+		C62331E127D3B33700C43B4B /* cookie-manager */ = {
+			isa = PBXGroup;
+			children = (
+				C62331E227D3B33700C43B4B /* cookie_manager.h */,
+				C62331EC27D3B34800C43B4B /* CookieManager.swift */,
+				C62331EE27D3B3BF00C43B4B /* CookieManagerProtocol.swift */,
+				C626CA7827D6923A003A6640 /* WebLayoutViewController.swift */,
+				C626CA7C27D69A8A003A6640 /* WebLayoutStoryboard.storyboard */,
+			);
+			path = "cookie-manager";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C62331DB27D3B33700C43B4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62331E327D3B33700C43B4B /* cookie_manager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C62331C327D3B2DE00C43B4B /* iubenda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62331D827D3B2E000C43B4B /* Build configuration list for PBXNativeTarget "iubenda" */;
+			buildPhases = (
+				C62331C027D3B2DE00C43B4B /* Sources */,
+				C62331C127D3B2DE00C43B4B /* Frameworks */,
+				C62331C227D3B2DE00C43B4B /* Resources */,
+				C62331EB27D3B33700C43B4B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C62331E527D3B33700C43B4B /* PBXTargetDependency */,
+			);
+			name = iubenda;
+			productName = iubenda;
+			productReference = C62331C427D3B2DE00C43B4B /* iubenda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C62331DF27D3B33700C43B4B /* cookie-manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62331E827D3B33700C43B4B /* Build configuration list for PBXNativeTarget "cookie-manager" */;
+			buildPhases = (
+				C62331DB27D3B33700C43B4B /* Headers */,
+				C62331DC27D3B33700C43B4B /* Sources */,
+				C62331DD27D3B33700C43B4B /* Frameworks */,
+				C62331DE27D3B33700C43B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cookie-manager";
+			productName = "cookie-manager";
+			productReference = C62331E027D3B33700C43B4B /* cookie_manager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C62331BC27D3B2DE00C43B4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C62331C327D3B2DE00C43B4B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C62331DF27D3B33700C43B4B = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+				};
+			};
+			buildConfigurationList = C62331BF27D3B2DE00C43B4B /* Build configuration list for PBXProject "iubenda" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C62331BB27D3B2DE00C43B4B;
+			productRefGroup = C62331C527D3B2DE00C43B4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C62331C327D3B2DE00C43B4B /* iubenda */,
+				C62331DF27D3B33700C43B4B /* cookie-manager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C62331C227D3B2DE00C43B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8F458527DE494A00FA83FE /* Info.plist in Resources */,
+				C62331D427D3B2E000C43B4B /* LaunchScreen.storyboard in Resources */,
+				C62331D127D3B2E000C43B4B /* Assets.xcassets in Resources */,
+				ED8F458727DE497300FA83FE /* readme.md in Resources */,
+				C62331CF27D3B2DE00C43B4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62331DE27D3B33700C43B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8F458627DE494B00FA83FE /* Info.plist in Resources */,
+				C626CA7D27D69A8A003A6640 /* WebLayoutStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C62331C027D3B2DE00C43B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62331CC27D3B2DE00C43B4B /* ViewController.swift in Sources */,
+				C62331C827D3B2DE00C43B4B /* AppDelegate.swift in Sources */,
+				C62331CA27D3B2DE00C43B4B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62331DC27D3B33700C43B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C626CA7927D6923A003A6640 /* WebLayoutViewController.swift in Sources */,
+				C62331ED27D3B34800C43B4B /* CookieManager.swift in Sources */,
+				C62331EF27D3B3BF00C43B4B /* CookieManagerProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C62331E527D3B33700C43B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C62331DF27D3B33700C43B4B /* cookie-manager */;
+			targetProxy = C62331E427D3B33700C43B4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C62331CD27D3B2DE00C43B4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C62331CE27D3B2DE00C43B4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C62331D227D3B2E000C43B4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C62331D327D3B2E000C43B4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C62331D627D3B2E000C43B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C62331D727D3B2E000C43B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C62331D927D3B2E000C43B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCFM7K9NWT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iubenda/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Almila Duru Kavak";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.assesment.iubenda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C62331DA27D3B2E000C43B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCFM7K9NWT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iubenda/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Almila Duru Kavak";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.assesment.iubenda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C62331E927D3B33700C43B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = XCFM7K9NWT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assesment.cookie-manager";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C62331EA27D3B33700C43B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 579JS3642P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.assesment.cookie-manager";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C62331BF27D3B2DE00C43B4B /* Build configuration list for PBXProject "iubenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62331D627D3B2E000C43B4B /* Debug */,
+				C62331D727D3B2E000C43B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62331D827D3B2E000C43B4B /* Build configuration list for PBXNativeTarget "iubenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62331D927D3B2E000C43B4B /* Debug */,
+				C62331DA27D3B2E000C43B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62331E827D3B33700C43B4B /* Build configuration list for PBXNativeTarget "cookie-manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62331E927D3B33700C43B4B /* Debug */,
+				C62331EA27D3B33700C43B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C62331BC27D3B2DE00C43B4B /* Project object */;
+}
